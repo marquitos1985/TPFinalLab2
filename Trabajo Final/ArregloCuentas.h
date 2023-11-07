@@ -6,7 +6,7 @@
 
 
 typedef struct {
-    stCeldaCuentas *arrCuentas;
+    stCeldaCuenta *arrCuentas;
     int val;
     int dim;
 }stArregloCuentas;

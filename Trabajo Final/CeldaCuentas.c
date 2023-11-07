@@ -5,7 +5,7 @@
 #include "CeldaCuentas.h"
 
 stCeldaCuenta crearCeldaCuenta(stCuenta cuenta){
-    celdaCuentas nueva;
+    stCeldaCuenta nueva;
     nueva.dato = cuenta;
     nueva.listaMov = inicListaMov();
     return nueva;
