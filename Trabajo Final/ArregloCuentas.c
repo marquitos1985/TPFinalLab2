@@ -6,7 +6,7 @@
 #include "CeldaCuentas.h"
 
 
-int altaCuenta(stArregloCuentas *arrCuentas, stCuenta nueva){
+//int altaCuenta(stArregloCuentas *arrCuentas, stCuenta nueva){
 
     if(arrCuentas.val == 0){
         arrCuentas = (stCeldaCuentas*)malloc((nodoCliente.arregloCuentas.dim)*sizeof(stCeldaCuentas));
