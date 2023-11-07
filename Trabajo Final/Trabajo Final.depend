@@ -1,0 +1,860 @@
+# depslib dependency file v1.0
+1685572990 source:d:\utn\programacion y laboratorio i\trabajo final\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+
+1685568412 d:\utn\programacion y laboratorio i\trabajo final\cuenta.h
+
+1685573420 source:d:\utn\programacion y laboratorio i\trabajo final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"time.h"
+	"conio.h"
+
+1685492602 d:\utn\programacion y laboratorio i\trabajo final\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+
+1685572582 d:\utn\programacion y laboratorio i\trabajo final\utilería.h
+
+1685572990 d:\utn\programacion y laboratorio i\trabajo final\movimientos.h
+
+1685573446 source:d:\utn\programacion y laboratorio i\trabajo final\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"Cuenta.h"
+	"time.h"
+
+1685571130 source:d:\utn\programacion y laboratorio i\trabajo final\utilería.c
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utilería.h"
+
+1685572848 d:\utn\programacion y laboratorio i\trabajo final\utileria.h
+
+1685572848 source:d:\utn\programacion y laboratorio i\trabajo final\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"conio.h"
+
+1686004954 source:c:\users\usuario\desktop\trabajo final\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+
+1686004070 c:\users\usuario\desktop\trabajo final\cuenta.h
+
+1686012559 c:\users\usuario\desktop\trabajo final\movimientos.h
+
+1686004245 c:\users\usuario\desktop\trabajo final\utileria.h
+
+1686012870 source:c:\users\usuario\desktop\trabajo final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+
+1686013065 source:c:\users\usuario\desktop\trabajo final\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"Movimientos.h"
+	"time.h"
+
+1686013160 source:c:\users\usuario\desktop\trabajo final\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1686003561 source:c:\users\usuario\desktop\trabajo final\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+
+1685830683 c:\users\usuario\desktop\trabajo final\cliente.h
+
+1686091073 source:c:\users\pcpersonal\downloads\trabajo final 05-06 22_10\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+
+1686089767 c:\users\pcpersonal\downloads\trabajo final 05-06 22_10\cuenta.h
+
+1686089768 source:c:\users\pcpersonal\downloads\trabajo final 05-06 22_10\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+
+1686089767 c:\users\pcpersonal\downloads\trabajo final 05-06 22_10\cliente.h
+
+1686097566 source:c:\users\pcpersonal\downloads\trabajo final 05-06 22_10\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"Movimientos.h"
+	"time.h"
+	"string.h"
+
+1686094113 c:\users\pcpersonal\downloads\trabajo final 05-06 22_10\movimientos.h
+
+1686089768 source:c:\users\pcpersonal\downloads\trabajo final 05-06 22_10\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1686089714 c:\users\pcpersonal\downloads\trabajo final 05-06 22_10\utileria.h
+
+1686096486 source:c:\users\pcpersonal\downloads\trabajo final 05-06 22_10\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+
+1686153687 source:c:\users\usuario\desktop\trabajo final 06-06 22_32\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"windows.h"
+	"Utileria.h"
+
+1686075366 c:\users\usuario\desktop\trabajo final 06-06 22_32\cliente.h
+
+1686157196 source:c:\users\usuario\desktop\trabajo final 06-06 22_32\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1686154027 c:\users\usuario\desktop\trabajo final 06-06 22_32\cuenta.h
+
+1686157144 source:c:\users\usuario\desktop\trabajo final 06-06 22_32\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1686155021 c:\users\usuario\desktop\trabajo final 06-06 22_32\movimientos.h
+
+1686075314 c:\users\usuario\desktop\trabajo final 06-06 22_32\utileria.h
+
+1686149883 source:c:\users\usuario\desktop\trabajo final 06-06 22_32\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1686156416 source:c:\users\usuario\desktop\trabajo final 06-06 22_32\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1686153688 source:d:\utn\programacion y laboratorio i\trabajo final 07-06 14_06\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"windows.h"
+	"Utileria.h"
+
+1686075366 d:\utn\programacion y laboratorio i\trabajo final 07-06 14_06\cliente.h
+
+1686075314 d:\utn\programacion y laboratorio i\trabajo final 07-06 14_06\utileria.h
+
+1686156418 source:d:\utn\programacion y laboratorio i\trabajo final 07-06 14_06\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1686155022 d:\utn\programacion y laboratorio i\trabajo final 07-06 14_06\movimientos.h
+
+1686149884 source:d:\utn\programacion y laboratorio i\trabajo final 07-06 14_06\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1686175394 d:\utn\programacion y laboratorio i\trabajo final 07-06 14_06\cuenta.h
+
+1686178052 source:d:\utn\programacion y laboratorio i\trabajo final 07-06 14_06\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1686178734 source:d:\utn\programacion y laboratorio i\trabajo final 07-06 14_06\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1686188693 source:c:\users\usuario\desktop\trabajo final 07-06 14_06\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"windows.h"
+	"Utileria.h"
+
+1686075366 c:\users\usuario\desktop\trabajo final 07-06 14_06\cliente.h
+
+1686075314 c:\users\usuario\desktop\trabajo final 07-06 14_06\utileria.h
+
+1686620703 source:c:\users\usuario\desktop\trabajo final 07-06 14_06\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1686620520 c:\users\usuario\desktop\trabajo final 07-06 14_06\cuenta.h
+
+1686156418 source:c:\users\usuario\desktop\trabajo final 07-06 14_06\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1686617183 c:\users\usuario\desktop\trabajo final 07-06 14_06\movimientos.h
+
+1686149884 source:c:\users\usuario\desktop\trabajo final 07-06 14_06\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1686617090 source:c:\users\usuario\desktop\trabajo final 07-06 14_06\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1687212490 source:c:\users\usuario\desktop\trabajo final 17-06 16_22\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1687212189 c:\users\usuario\desktop\trabajo final 17-06 16_22\cuenta.h
+
+1687202963 c:\users\usuario\desktop\trabajo final 17-06 16_22\movimientos.h
+
+1687127079 c:\users\usuario\desktop\trabajo final 17-06 16_22\utileria.h
+
+1687211751 c:\users\usuario\desktop\trabajo final 17-06 16_22\cliente.h
+
+1687210624 source:c:\users\usuario\desktop\trabajo final 17-06 16_22\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1687212699 source:c:\users\usuario\desktop\trabajo final 17-06 16_22\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687203111 source:c:\users\usuario\desktop\trabajo final 17-06 16_22\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687212978 source:c:\users\usuario\desktop\trabajo final 17-06 16_22\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"windows.h"
+	"Utileria.h"
+
+1687278825 source:c:\users\marqu\desktop\nueva carpeta\trabajo final 19-06 19_40\trabajo final 19-06 19_40\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"windows.h"
+	"Utileria.h"
+
+1687226405 c:\users\marqu\desktop\nueva carpeta\trabajo final 19-06 19_40\trabajo final 19-06 19_40\cliente.h
+
+1687228590 c:\users\marqu\desktop\nueva carpeta\trabajo final 19-06 19_40\trabajo final 19-06 19_40\cuenta.h
+
+1687217109 c:\users\marqu\desktop\nueva carpeta\trabajo final 19-06 19_40\trabajo final 19-06 19_40\movimientos.h
+
+1687231104 c:\users\marqu\desktop\nueva carpeta\trabajo final 19-06 19_40\trabajo final 19-06 19_40\utileria.h
+
+1687228680 source:c:\users\marqu\desktop\nueva carpeta\trabajo final 19-06 19_40\trabajo final 19-06 19_40\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687217109 source:c:\users\marqu\desktop\nueva carpeta\trabajo final 19-06 19_40\trabajo final 19-06 19_40\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687266158 source:c:\users\marqu\desktop\nueva carpeta\trabajo final 19-06 19_40\trabajo final 19-06 19_40\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1687279374 source:c:\users\marqu\desktop\nueva carpeta\trabajo final 19-06 19_40\trabajo final 19-06 19_40\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1687287995 source:c:\users\marqu\desktop\trabajo final 20-06 14_00\trabajo final 19-06 19_40\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687287987 c:\users\marqu\desktop\trabajo final 20-06 14_00\trabajo final 19-06 19_40\cuenta.h
+
+1687231104 c:\users\marqu\desktop\trabajo final 20-06 14_00\trabajo final 19-06 19_40\utileria.h
+
+1687217109 source:c:\users\marqu\desktop\trabajo final 20-06 14_00\trabajo final 19-06 19_40\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687297841 c:\users\marqu\desktop\trabajo final 20-06 14_00\trabajo final 19-06 19_40\movimientos.h
+
+1687226405 c:\users\marqu\desktop\trabajo final 20-06 14_00\trabajo final 19-06 19_40\cliente.h
+
+1687287404 source:c:\users\marqu\desktop\trabajo final 20-06 14_00\trabajo final 19-06 19_40\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1687288231 source:c:\users\marqu\desktop\trabajo final 20-06 14_00\trabajo final 19-06 19_40\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"windows.h"
+	"Utileria.h"
+
+1687288005 source:c:\users\marqu\desktop\trabajo final 20-06 14_00\trabajo final 19-06 19_40\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1687273830 source:c:\users\usuario\desktop\trabajo final 20-06 19_00\trabajo final 19-06 19_40\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"windows.h"
+	"Utileria.h"
+
+1687212004 c:\users\usuario\desktop\trabajo final 20-06 19_00\trabajo final 19-06 19_40\cliente.h
+
+1687273586 c:\users\usuario\desktop\trabajo final 20-06 19_00\trabajo final 19-06 19_40\cuenta.h
+
+1687283440 c:\users\usuario\desktop\trabajo final 20-06 19_00\trabajo final 19-06 19_40\movimientos.h
+
+1687216704 c:\users\usuario\desktop\trabajo final 20-06 19_00\trabajo final 19-06 19_40\utileria.h
+
+1687304502 source:c:\users\usuario\desktop\trabajo final 20-06 19_00\trabajo final 19-06 19_40\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687303513 source:c:\users\usuario\desktop\trabajo final 20-06 19_00\trabajo final 19-06 19_40\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1687304877 source:c:\users\usuario\desktop\trabajo final 20-06 19_00\trabajo final 19-06 19_40\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687281852 source:c:\users\usuario\desktop\trabajo final 20-06 19_00\trabajo final 19-06 19_40\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1687259430 source:d:\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"windows.h"
+	"Utileria.h"
+
+1687197604 d:\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\cliente.h
+
+1687259186 d:\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\cuenta.h
+
+1687269040 d:\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\movimientos.h
+
+1687202304 d:\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\utileria.h
+
+1687290102 source:d:\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687290476 source:d:\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687267452 source:d:\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1687290476 source:c:\users\marqu\desktop\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687269040 c:\users\marqu\desktop\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\movimientos.h
+
+1687197604 c:\users\marqu\desktop\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\cliente.h
+
+1687202304 c:\users\marqu\desktop\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\utileria.h
+
+1687267452 source:c:\users\marqu\desktop\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1687259186 c:\users\marqu\desktop\trabajo final 20-06 19_00 este es el de ayer-20230621t172053z-001\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\cuenta.h
+
+1687373232 source:c:\users\marqu\desktop\trabajo final 21-06\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1687259186 c:\users\marqu\desktop\trabajo final 21-06\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\cuenta.h
+
+1687269040 c:\users\marqu\desktop\trabajo final 21-06\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\movimientos.h
+
+1687202304 c:\users\marqu\desktop\trabajo final 21-06\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\utileria.h
+
+1687197604 c:\users\marqu\desktop\trabajo final 21-06\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\cliente.h
+
+1687290476 source:c:\users\marqu\desktop\trabajo final 21-06\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687267452 source:c:\users\marqu\desktop\trabajo final 21-06\trabajo final 20-06 19_00 este es el de ayer\trabajo final 19-06 19_40\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1687379173 source:c:\users\marqu\desktop\trabajo final 21-06\trabajo final\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"windows.h"
+	"Utileria.h"
+
+1687197604 c:\users\marqu\desktop\trabajo final 21-06\trabajo final\cliente.h
+
+1687259186 c:\users\marqu\desktop\trabajo final 21-06\trabajo final\cuenta.h
+
+1687269040 c:\users\marqu\desktop\trabajo final 21-06\trabajo final\movimientos.h
+
+1687202304 c:\users\marqu\desktop\trabajo final 21-06\trabajo final\utileria.h
+
+1687379313 source:c:\users\marqu\desktop\trabajo final 21-06\trabajo final\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687373232 source:c:\users\marqu\desktop\trabajo final 21-06\trabajo final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1687290476 source:c:\users\marqu\desktop\trabajo final 21-06\trabajo final\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687267452 source:c:\users\marqu\desktop\trabajo final 21-06\trabajo final\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1687379174 source:c:\marcos\utn\programaciónylaboratorio1\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"windows.h"
+	"Utileria.h"
+
+1687197604 c:\marcos\utn\programaciónylaboratorio1\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\cliente.h
+
+1687259186 c:\marcos\utn\programaciónylaboratorio1\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\cuenta.h
+
+1687269040 c:\marcos\utn\programaciónylaboratorio1\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\movimientos.h
+
+1687202304 c:\marcos\utn\programaciónylaboratorio1\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\utileria.h
+
+1687379314 source:c:\marcos\utn\programaciónylaboratorio1\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687383030 source:c:\marcos\utn\programaciónylaboratorio1\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1687290476 source:c:\marcos\utn\programaciónylaboratorio1\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687267452 source:c:\marcos\utn\programaciónylaboratorio1\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1687379174 source:c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"windows.h"
+	"Utileria.h"
+
+1687197604 c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\cliente.h
+
+1687259186 c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\cuenta.h
+
+1687269040 c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\movimientos.h
+
+1687202304 c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\utileria.h
+
+1687379314 source:c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1697577260 source:c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
+1687290476 source:c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687267452 source:c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1697581342 source:c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\listamovimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"ListaMovimientos.h"
+
+1697581387 c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\listamovimientos.h
+	"Movimientos.h"
+
+1697581714 source:c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\arreglocuentas.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"ArregloCuentas.h"
+
+1697581773 c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\arreglocuentas.h
+	"Cuenta.h"
+	"ListaMovimientos.h"
+
+1697581855 source:c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\arbolclientes.c
+	<stdio.h>
+	<stdlib.h>
+	"ArbolClientes.h"
+	"string.h"
+
+1697581839 c:\marcos\utn\programacionylaboratorio2\trabajo final - blanco rio - sanchez breccia - riggillo - carrizo\trabajo final 21-06\trabajo final\arbolclientes.h
+	"Cliente.h"
+	"ArregloCuentas.h"
+
