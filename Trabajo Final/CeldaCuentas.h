@@ -7,9 +7,9 @@
 typedef struct {
     stCuenta dato;
     nodoListaMovimiento* listaMov;
-}stCeldaCuentas;
+}stCeldaCuenta;
 
-stCeldaCuentas crearCeldaCuenta(stCuenta cuenta);
+stCeldaCuenta crearCeldaCuenta(stCuenta cuenta);
 
 
 #endif // CELDACUENTAS_H_INCLUDED

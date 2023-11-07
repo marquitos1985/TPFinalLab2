@@ -858,3 +858,61 @@
 	"Cliente.h"
 	"ArregloCuentas.h"
 
+1687379174 source:c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"Cuenta.h"
+	"Movimientos.h"
+	"windows.h"
+	"Utileria.h"
+
+1687197604 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\cliente.h
+
+1697666635 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\cuenta.h
+
+1687269040 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\movimientos.h
+
+1687202304 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\utileria.h
+
+1687379314 source:c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\cuenta.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Cuenta.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687290476 source:c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\movimientos.c
+	<stdio.h>
+	<stdlib.h>
+	"windows.h"
+	"Movimientos.h"
+	"cliente.h"
+	"time.h"
+	"string.h"
+	"Utileria.h"
+
+1687267452 source:c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\utileria.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"cliente.h"
+	"Utileria.h"
+	"conio.h"
+	"string.h"
+
+1697588909 source:c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cuenta.h"
+	"Movimientos.h"
+	"Utileria.h"
+	"string.h"
+	"cliente.h"
+	"time.h"
+	"conio.h"
+	"windows.h"
+
