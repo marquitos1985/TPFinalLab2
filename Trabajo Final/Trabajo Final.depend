@@ -867,7 +867,8 @@
 	"windows.h"
 	"Utileria.h"
 
-1687197604 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\cliente.h
+1699398705 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\cliente.h
+	"ArbolClientes.h"
 
 1697666635 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\cuenta.h
 
@@ -915,4 +916,22 @@
 	"time.h"
 	"conio.h"
 	"windows.h"
+
+1699402559 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\arbolclientes.h
+	"Cliente.h"
+	"ArregloCuentas.h"
+
+1699398040 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\arreglocuentas.h
+	"Cuenta.h"
+	"ListaMovimientos.h"
+	"ArregloCuentas.h"
+
+1699402993 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\listamovimientos.h
+	"Movimientos.h"
+	"CeldaCuentas.h"
+
+1699403112 c:\marcos\utn\programacionylaboratorio2\trabajofinallab2\trabajo final\celdacuentas.h
+	"Cuenta.h"
+	"ArregloCuentas.h"
+	"ListaMovimientos.h"
 

@@ -1,15 +1,15 @@
 #ifndef CELDACUENTAS_H_INCLUDED
 #define CELDACUENTAS_H_INCLUDED
 #include "Cuenta.h"
+#include "ArregloCuentas.h"
 #include "ListaMovimientos.h"
-#include "EstructuraArregloCuentas.h"
 
 typedef struct {
     stCuenta dato;
-    nodoListaMovimiento* listaMov;
+    nodoListaMovimientos* listaMov;
 }stCeldaCuenta;
 
-stCeldaCuenta crearCeldaCuenta(stCuenta cuenta);
+stCeldaCuenta crearCeldaCuenta(stCuenta dato);
 
 
 #endif // CELDACUENTAS_H_INCLUDED

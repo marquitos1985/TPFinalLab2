@@ -10,9 +10,7 @@ nodoArbolCliente* inicArbol() {
 nodoArbolCliente* crearNodoArbol(stCliente cliente) {
     nodoArbolCliente* nuevo = (nodoArbolCliente*)malloc(sizeof(nodoArbolCliente));
     nuevo->dato = cliente;
-    nuevo->arregloCuentas = NULL;
-    nuevo->arregloCuentas.val = 0;
-    nuevo->arregloCuentas.dim = 3;
+    nuevo->arregloCuentas = inicArregloCuentas();
     nuevo->izq = NULL;
     nuevo->der = NULL;
 
@@ -62,30 +60,17 @@ void mostrarArbolINORDER(nodoArbolCliente* arbol){
     }
 }
 
-nodoArbolCliente* archivoClientesToArbolClientes(char nombreArchivo[], nodoArbolCliente* arbolClientes){
+nodoArbolCliente* archivoClientesToArbolClientes(char nombreArchivo[], nodoArbolCliente* arbol){
+
     FILE* archi = fopen(nombreArchivo, "rb");
     stCliente cliente;
     if(archi){
-       while( fread(&cliente, sizeof(stCliente), 1, archi) > 0 ){
+        while(fread(&cliente, sizeof(stCliente), 1, archi) > 0){
+            arbol = agregarClienteAlArbolPorDNI(arbol, cliente);
+        }
 
-       }
         fclose(archi);
     }
 
-
-}
-
-void archivoToArregloClientes(FILE* archi, stCliente *arreglo, int *dim){
-    stCliente cliente;
-    int i = 0;
-    fseek(archi, 0, SEEK_END);
-    (*dim) = ftell(archi)/sizeof(stCliente);
-    arreglo = (stCliente*)malloc((*dim)*sizeof(stCliente));
-    fseek(archi, 0, SEEK_SET);
-    while( fread(&cliente, sizeof(stCliente), 1, archi) > 0 ){
-        arreglo[i] = cliente;
-        i++;
-    }
-
-
+    return arbol;
 }

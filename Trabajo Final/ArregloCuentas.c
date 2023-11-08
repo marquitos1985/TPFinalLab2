@@ -6,23 +6,44 @@
 #include "CeldaCuentas.h"
 
 
-//int altaCuenta(stArregloCuentas *arrCuentas, stCuenta nueva){
+stArregloCuentas inicArregloCuentas(){
+    stArregloCuentas arreglo;
+    arreglo.dim = 10;
+    arreglo.val = 0;
+    arreglo.arrCuentas = (stCeldaCuenta*) malloc(dim*sizeof(stCeldaCuenta));
 
-    if(arrCuentas.val == 0){
-        arrCuentas = (stCeldaCuentas*)malloc((nodoCliente.arregloCuentas.dim)*sizeof(stCeldaCuentas));
-    }else if(nodoCliente.arregloCuentas.val == nodoCliente.arregloCuentas.dim){
-        arrCuentas.dim = 2*(arrCuentas.dim);
-        arrCuentas = (stCeldaCuentas*)realloc((nodoCliente.arregloCuentas.dim)*sizeof(stCeldaCuentas));
-    }
-
-    arrCuentas[arrCuentas.val] = altaCeldaCuenta(nueva);
-    arrCuentas.val++;
-
-    return arrCuentas.val;
+    return arreglo;
 }
 
-void mostrarArrCuentas(celdaCuentas arrCuentas[], int val){
-    for(int i = 0; i < val; i++){
+stArregloCuentas redimensionarArreglo(stArregloCuentas arreglo){
+    arreglo.dim = 2*arreglo.dim;
+    arreglo.arrCuentas = (stCeldaCuenta*)realloc(&arreglo, dim*sizeof(stCeldaCuenta));
 
-    }
+    return arreglo;
 }
+
+int agregarCeldaCuenta(stArregloCuentas arreglo, stCeldaCuenta nueva){//agrega una cuenta en el arreglo
+    if(arreglo.dim == arreglo.val){
+        arreglo = redimensionarArreglo(arreglo);
+    }
+    arreglo[arreglo.val].arrCuentas = nueva;
+    arreglo.val++;
+
+    return arreglo.val;
+}
+
+int archivoCuentasToArregloCuentasConFiltroCliente(char nombreArchivo[], nodoArbolCliente* nodoCliente){
+    FILE* archi = fopen(nombreArchivo, "rb");
+    stCuenta cuenta;
+    if(archi){
+        while(fread(&cuenta, sizeof(stCuenta), 1, archi) > 0){
+            if(cuenta.idCliente == nodoCliente.dato.id){
+                nodoCliente.arregloCuentas = agregarCeldaCuenta(nodoCliente.arregloCuentas, crearCeldaCuenta(cuenta));
+            }
+        }
+        fclose(archi);
+    }
+
+    return lista;
+}
+

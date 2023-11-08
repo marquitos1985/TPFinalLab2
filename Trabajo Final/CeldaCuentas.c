@@ -4,10 +4,11 @@
 #include "ListaMovimientos.h"
 #include "CeldaCuentas.h"
 
-stCeldaCuenta crearCeldaCuenta(stCuenta cuenta){
+stCeldaCuenta crearCeldaCuenta(stCuenta dato){
     stCeldaCuenta nueva;
-    nueva.dato = cuenta;
+    nueva.dato = dato;
     nueva.listaMov = inicListaMov();
+
     return nueva;
 }
 

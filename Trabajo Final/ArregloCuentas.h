@@ -11,7 +11,8 @@ typedef struct {
     int dim;
 }stArregloCuentas;
 
-int altaCuenta(stCeldaCuentas *arrCuentas, int val, int *dim, stCuenta nueva);
-void mostrarArrCuentas(stCeldaCuentas arrCuentas[], int val);
+stArregloCuentas inicArregloCuentas();
+stArregloCuentas redimensionarArreglo(stArregloCuentas arreglo);
+int agregarCeldaCuenta(stArregloCuentas arreglo, stCeldaCuenta nueva);
 
 #endif // ARREGLOCUENTAS_H_INCLUDED

@@ -3,22 +3,22 @@
 #include "string.h"
 #include "ListaMovimientos.h"
 
-nodoListaMovimiento* inicListaMov(){
+nodoListaMovimientos* inicListaMov(){
     return NULL;
 }
 
 nodoListaMovimiento* crearNodoListaMov(stMovimiento mov){
-    nodoListaMovimiento* nuevo = (nodoListaMovimiento*)malloc(sizeof(nodoListaMovimiento));
+    nodoListaMovimientos* nuevo = (nodoListaMovimientos*)malloc(sizeof(nodoListaMovimientos));
     nuevo->dato = mov;
     nuevo->sig = NULL;
     return nuevo;
 }
 
-nodoListaMovimiento* agregarMovAlPpio(celdaCuentas cuenta, nodoListaMovimiento* listaMov, stMovimiento mov){
-    return agregarNodoMovAlPpio(cuenta, listaMov, crearNodoListaMov(mov));
+nodoListaMovimientos* agregarMovAlPpio(nodoListaMovimientos* listaMov, stMovimiento mov){
+    return agregarNodoMovAlPpio(listaMov, crearNodoListaMov(mov));
 }
 
-nodoListaMovimiento* agregarNodoMovAlPpio(celdaCuentas cuenta, nodoListaMovimiento* listaMov, nodoListaMovimiento* nuevo){
+nodoListaMovimientos* agregarNodoMovAlPpio(nodoListaMovimientos* listaMov, nodoListaMovimientos* nuevo){
     if(listaMov == NULL){
         listaMov = nuevo;
     }else{
@@ -28,11 +28,25 @@ nodoListaMovimiento* agregarNodoMovAlPpio(celdaCuentas cuenta, nodoListaMovimien
     return listaMov;
 }
 
-void mostrarListaMov(nodoListaMovimiento* listaMov){
-    nodoListaMovimiento* aux = listaMov;
+void mostrarListaMov(nodoListaMovimientos* listaMov){
+    nodoListaMovimientos* aux = listaMov;
     while(aux){
         muestraUnMovimiento(aux->dato);
         aux = aux->sig;
     }
 }
 
+nodoListaMovimientos* archivoMovimientosToListaMovConFiltroCuenta(char nombreArchivo[], stCeldaCuenta celda, nodoListaMovimientos* lista){
+    FILE* archi = fopen(nombreArchivo, "rb");
+    stMovimiento mov;
+    if(archi){
+        while(fread(&mov, sizeof(stMovimiento), 1, archi) > 0){
+            if(mov.idCuenta == celda.dato.id){
+                lista = agregarMovAlPpio(lista, mov);
+            }
+        }
+        fclose(archi);
+    }
+
+    return lista;
+}

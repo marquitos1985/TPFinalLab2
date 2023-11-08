@@ -1,15 +1,17 @@
 #ifndef LISTAMOVIMIENTOS_H_INCLUDED
 #define LISTAMOVIMIENTOS_H_INCLUDED
 #include "Movimientos.h"
+#include "CeldaCuentas.h"
 
-typedef struct _nodoListaMovimiento {
+typedef struct _nodoListaMovimientos {
     stMovimiento dato;
-    struct _nodoListaMovimiento* sig;
-} nodoListaMovimiento;
+    struct _nodoListaMovimientos* sig;
+} nodoListaMovimientos;
 
-nodoListaMovimiento* inicListaMov();
-nodoListaMovimiento* crearNodoListaMov(stMovimiento mov);
-nodoListaMovimiento* agregarMovAlPpio(nodoListaMovimiento* listaMov, stMovimiento mov);
-nodoListaMovimiento* agregarNodoMovAlPpio(nodoListaMovimiento* listaMov, nodoListaMovimiento* nuevo);
+nodoListaMovimientos* inicListaMov();
+nodoListaMovimientos* crearNodoListaMov(stMovimiento mov);
+nodoListaMovimientos* agregarMovAlPpio(nodoListaMovimientos* listaMov, stMovimiento mov);
+nodoListaMovimientos* agregarNodoMovAlPpio(nodoListaMovimientos* listaMov, nodoListaMovimientos* nuevo);
+nodoListaMovimientos* archivoMovimientosToListaMovConFiltroCuenta(char nombreArchivo[], stCeldaCuenta celda, nodoListaMovimientos* lista);
 
 #endif // LISTAMOVIMIENTOS_H_INCLUDED
